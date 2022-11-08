@@ -1,0 +1,7 @@
+*.npz
+*.csv
+__pycache__/*
+.vscode/*
+data/**
+cv_report.json
+*.pkl
