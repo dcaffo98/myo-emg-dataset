@@ -14,7 +14,8 @@ clustering_pipeline = Pipeline(steps=(
 
 
 if __name__ == '__main__':
-    X, y = get_dataset(dtype_data=np.float64)
+    # don't shuffle data if you want to keep the same order as the original dataset
+    X, y = get_dataset(dtype_data=np.float64, shuffle=False)
     
     clustering_pipeline.fit(X)
     labels = clustering_pipeline._final_estimator.labels_
