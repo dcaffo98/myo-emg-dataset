@@ -16,6 +16,9 @@ Currently, there are only 4 supported gestures:
 
  [Here](https://www.kaggle.com/datasets/dcaffo/myoemgdata) you can find a ready-to-use dataset.
 
+ ![alt text](resources/whole_dataset.png)
+
+
 <br/><br/>
 <br/><br/>
 
